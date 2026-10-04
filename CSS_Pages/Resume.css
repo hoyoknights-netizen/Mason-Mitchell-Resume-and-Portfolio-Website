@@ -1,0 +1,110 @@
+/*Code written by Google Fonts*/.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+	color:#9d4edd;
+	text-align: center;
+	font-size: 6em;
+	text-shadow: 0px 3px 6px;
+}
+
+body {
+	background-color: black;
+	font-size: 18px;
+	color: #A3C4F5;
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid whitesmoke; 
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+img {
+	border-radius: 50%;
+		float: center;
+  margin-right: 20px;
+}
+
+h1{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+h2{
+	font-size: 3em;
+	margin-top: -40px;
+	color: white;
+	text-align: center;
+}
+
+h3{
+	font-size: 2em;
+	color: #9d4edd;
+	text-align: center;
+}
+
+p{
+text-align: center;
+font-size: 22px;
+}
+
+footer{
+	color: whitesmoke;
+}
+.heartcolor {
+	color: #9d4edd;
+}
+
+.BlockBorder{
+display: block;
+padding: 70px 40px;
+border: 2px solid white; 
+border-radius: 30px;
+text-decoration: none;
+margin:20px auto;
+max-width: 1250px;
+}
+
+.BlockBorderText1{
+text-align: left;
+color: white;
+}
+
+.BlockBorderText2{
+margin-left: 40px;
+color: white;
+display: inline-block
+}
+
+
+.heart-list {
+  width: 600px;
+  margin: 0 auto;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.heart-list li {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.heart-list li::marker {
+  content: "\2665";
+  color: #9d4edd;
+  font-size: 1.2em;
+}
